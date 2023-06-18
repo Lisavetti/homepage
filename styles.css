@@ -131,6 +131,16 @@ body {
     border-color: var(--text-decoration-color);
 }
 
+.contact-info__picture {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    border: 3px solid;
+    border-color: var(--text-decoration-color);
+    display: block;
+    margin: 0 auto;
+}
+
 .intro {
     display: flex;
     justify-content: start;
@@ -155,6 +165,11 @@ body {
 .intro_text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+
+.intro_text {
+    color: var(--secondary-text-color);
+    text-align: start;
 }
 
 .skills__header {
